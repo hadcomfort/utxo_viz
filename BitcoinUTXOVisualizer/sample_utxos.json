@@ -1,0 +1,87 @@
+[
+  {
+    "txid": "fictional_txid_abc123_confirmed_unspent",
+    "vout": 0,
+    "status": {
+      "confirmed": true,
+      "block_height": 750000,
+      "block_hash": "0000000000000000000a1b2c3d4e5f6g7h8i9j0k",
+      "block_time": 1678886400 
+    },
+    "value": 12345678,
+    "spent": false,
+    "originAddress": "address_alpha"
+  },
+  {
+    "txid": "fictional_txid_def456_unconfirmed_unspent",
+    "vout": 1,
+    "status": {
+      "confirmed": false
+    },
+    "value": 87654321,
+    "spent": false,
+    "originAddress": "address_beta"
+  },
+  {
+    "txid": "fictional_txid_ghi789_confirmed_SPENT",
+    "vout": 2,
+    "status": { 
+      "confirmed": true,
+      "block_height": 650000,
+      "block_hash": "0000000000000000000z9y8x7w6v5u4t3s2r1q0p",
+      "block_time": 1600000000
+    },
+    "value": 50000000,
+    "spent": true,
+    "txid_spent": "spending_tx_id_001",
+    "vin_spent": 3,
+    "status_spent": {
+      "confirmed": true,
+      "block_height": 780005,
+      "block_hash": "0000000000000000000sPeNdInGbLoCkHaSh001",
+      "block_time": 1690001000
+    },
+    "originAddress": "address_alpha" 
+  },
+  {
+    "txid": "fictional_txid_jkl012_confirmed_zero_value_unspent",
+    "vout": 0,
+    "status": {
+      "confirmed": true,
+      "block_height": 780000,
+      "block_hash": "0000000000000000000m1n2o3p4q5r6s7t8u9v0w",
+      "block_time": 1690000000
+    },
+    "value": 0,
+    "spent": false,
+    "originAddress": "address_gamma"
+  },
+  {
+    "txid": "fictional_txid_mno345_unconfirmed_small_value_SPENT_unconfirmed_spend",
+    "vout": 3,
+    "status": { 
+      "confirmed": false 
+    },
+    "value": 10000,
+    "spent": true,
+    "txid_spent": "spending_tx_id_001", 
+    "vin_spent": 0,
+    "status_spent": {
+        "confirmed": false
+    },
+    "originAddress": "address_beta"
+  },
+  {
+    "txid": "fictional_txid_pqr678_confirmed_unspent_another_alpha",
+    "vout": 0,
+    "status": {
+      "confirmed": true,
+      "block_height": 790000,
+      "block_hash": "0000000000000000000aBcDeFgHiJkLmNoPqRsTuV",
+      "block_time": 1700000000 
+    },
+    "value": 25000000,
+    "spent": false,
+    "originAddress": "address_alpha" 
+  }
+]
